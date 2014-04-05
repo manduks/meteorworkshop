@@ -3,7 +3,8 @@
   "dependencies": {
     "basePackages": {
       "bootstrap-3": {},
-      "accounts-ui-bootstrap-3": {}
+      "accounts-ui-bootstrap-3": {},
+      "Dropzonejs": {}
     },
     "packages": {
       "bootstrap-3": {
@@ -15,6 +16,11 @@
         "git": "https://github.com/mangasocial/meteor-accounts-ui-bootstrap-3.git",
         "tag": "v0.3.0-1",
         "commit": "93ffa5d0e325dc7026de89f6d90c178fa04bdd3a"
+      },
+      "Dropzonejs": {
+        "git": "https://github.com/devonbarrett/meteor-dropzone.git",
+        "tag": "v1.0.1",
+        "commit": "aa0e15055a519e72a97d02cffad4b052e840433d"
       }
     }
   }

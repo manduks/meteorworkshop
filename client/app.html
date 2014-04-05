@@ -4,8 +4,11 @@
 <body>
     <div class="container">
         {{>header}}
-        <div class="jumbotron">
-        	{{>archivos}}
-    	</div>
+        {{#if currentUser}}
+	        <div class="jumbotron">
+	        	{{>archivos}}
+	    	</div>
+	    {{/if}}
+	     {{{dropzone "/files" "dropzone"}}}
     </div>
 </body>

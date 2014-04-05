@@ -1,12 +1,12 @@
 <template name="archivos">
-	<div class="row">
-	    {{#each archivos}}
-	    <div class="col-xs-6 col-md-3">
-	        <a href="{{link}}" class="thumbnail">
-	        <img data-src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzEiIGhlaWdodD0iMTgwIj48cmVjdCB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9Ijg1LjUiIHk9IjkwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEycHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTcxeDE4MDwvdGV4dD48L3N2Zz4=" alt="...">
-	        </a>
-	        {{description}}
-	    </div>
-	    {{/each}}
-	</div>
+<div class="bs-glyphicons">
+    <ul class="bs-glyphicons-list">
+        {{#each archivos}}
+        <li>
+            <span class="glyphicon glyphicon-asterisk"></span>
+            <span class="glyphicon-class"><a href="{{link}}">{{description}}</a></span>
+        </li>
+        {{/each}}
+    </ul>
+</div>
 </template>
