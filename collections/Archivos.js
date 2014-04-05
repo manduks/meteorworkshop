@@ -1,0 +1,1 @@
+Archivos =  new Meteor.Collection("archivos");
